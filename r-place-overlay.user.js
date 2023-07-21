@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         r/placeDE Template
+// @name         r/place Overlay
 // @namespace    http://tampermonkey.net/
 // @version      6
 // @description  try to take over the canvas!
