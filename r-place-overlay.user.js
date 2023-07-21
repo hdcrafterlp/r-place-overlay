@@ -6,8 +6,8 @@
 // @author       placeDE Devs
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js
-// @downloadURL  https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/placeDE-overlay.user.js
+// @updateURL    https://github.com/hdcrafterlp/r-place-overlay/raw/main/r-place-overlay.user.js
+// @downloadURL  https://github.com/hdcrafterlp/r-place-overlay/raw/main/r-place-overlay.user.js
 // ==/UserScript==
 
 var overlayImage = null;
@@ -22,7 +22,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://place.army/overlay_target.png?" + Date.now()
+    overlayImage.src = "https://raw.githubusercontent.com/hdcrafterlp/r-place-overlay/main/overlay.png" + Date.now()
 }
 
-setInterval(function () {overlayImage.src = "https://place.army/overlay_target.png?" + Date.now()}, 30000);
+setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/hdcrafterlp/r-place-overlay/main/overlay.png" + Date.now()}, 30000);
