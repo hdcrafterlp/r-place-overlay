@@ -22,7 +22,7 @@ if (window.top !== window.self) {
 }
 
 function updateImage() {
-    overlayImage.src = "https://raw.githubusercontent.com/hdcrafterlp/r-place-overlay/main/overlay.png" + Date.now()
+    overlayImage.src = "https://raw.githubusercontent.com/hdcrafterlp/r-place-overlay/main/overlay.png?" + Date.now()
 }
 
-setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/hdcrafterlp/r-place-overlay/main/overlay.png" + Date.now()}, 30000);
+setInterval(function () {overlayImage.src = "https://raw.githubusercontent.com/hdcrafterlp/r-place-overlay/main/overlay.png?" + Date.now()}, 30000);
